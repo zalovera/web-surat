@@ -106,7 +106,7 @@ def show_main_menu():
         </div>
         """, unsafe_allow_html=True)
         if st.button("Buat Surat"):
-            st.query_params["menu"] = "buatsurat"
+            st.query_params["men"] = "buat_surat"
             st.rerun()
 
     with col2:
